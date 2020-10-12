@@ -1,0 +1,155 @@
+.container1{
+    width: 50%;
+    margin: auto;
+
+}
+
+.suggested{
+    background: rgb(255, 3, 3);
+    color: white;
+    font-family: sans-serif;
+    margin: 4px;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 4px;
+    
+}
+.box-section{
+    width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    background: #7575ce;
+    margin-top: 5%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.453);
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.text{
+      
+      width: 50%;
+      padding-left: 2%;
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img img{
+  width: 80%;
+ height: 80%;
+}
+.cards-1{
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.card-1{
+    width: 20rem;
+    height: 16rem;
+    background: #ffffff;
+    box-shadow: 1px 1px 6px #7575ce;
+    margin-left: 20px;
+    border-radius: 6px;
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-1:nth-child(1){
+    margin-left: 0;
+}
+.card-1 p{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #8f8fda;
+}
+.card-1 p:nth-child(1){
+    color: black;
+    font-size: 2.2rem;
+}
+.card-1 i{
+    font-size: 3rem;
+    color: gray;
+}
+.inputText{
+    width: 50%;
+    margin: auto;
+}
+.data-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.def{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #7575ce;
+}
+.name{
+    color: red;
+    background: rgba(248, 116, 116, 0.34);
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audio{
+    margin-top: 5%;
+}
+audio{
+    outline: none;
+}
+
+@media only screen and (max-width:750px){
+    .text{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .box-section{
+        width: 95%;
+        flex-direction: column;
+        height: auto;
+    }
+    .cards-1{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-1{
+        margin-top: 6%;
+        margin-left: 0;
+    }
+    .inputText{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:375px){
+    h2{
+        font-size: 3rem !important;
+    }
+    h3{
+        font-size: 2rem !important;
+    }
+    h4{
+        font-size: 1.8rem !important;
+    }
+}
