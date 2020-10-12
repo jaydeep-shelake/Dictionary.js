@@ -21,5 +21,5 @@
 
 ## 📸 Screenshots
 
-<img src="sanpshot.png" width="550px" height="500px">
+<img src="sanpshot.png" width="800px" height="600px">
 link:https://jaydeep-shelake.github.io/Dictionary.js/
